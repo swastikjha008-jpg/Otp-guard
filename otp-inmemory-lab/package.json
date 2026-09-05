@@ -1,0 +1,16 @@
+{
+  "name": "otp-rate-limit-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A safe TypeScript lab for demonstrating OTP brute-force behavior and rate limiting without targeting real services.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
